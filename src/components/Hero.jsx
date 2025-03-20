@@ -11,13 +11,44 @@ export const Hero = () => {
           Hola Soy Pablo,<Roles></Roles>
         </h1>
         <p className={styles.description}>
-          Este es mi portafolio y este es un texto de prueba igual nadie lo va a
-          ver porfavor no me maten, Este es mi portafolio y este es un texto de
-          prueba igual nadie lo va a ver porfavor no me maten
+          1 año de experiencia. Ingeniero de Sistemas y Desarrollador Web.
+          Especializado en crear soluciones web robustas.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.btncontainer}>
+          <a
+            href="https://www.linkedin.com/in/pablo-escobar-mar%C3%ADn-5b2979280/"
+            className={styles.btn}
+          >
+            <img
+              src={getImageUrl("linkedinIcon.png")}
+              alt="LinkedIn icon"
+              className={styles.icon}
+            />
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/JuanPabloEscobarMarin"
+            className={styles.btn}
+          >
+            <img
+              src={getImageUrl("githubIcon.png")}
+              alt="Github icon"
+              className={styles.icon}
+            />
+            GitHub
+          </a>
+          <a
+            href="mailto:juanpabloescobarmarin@gmail.com"
+            className={styles.btn}
+          >
+            <img
+              src={getImageUrl("emailIcon.png")}
+              alt="Email icon"
+              className={styles.icon}
+            />
+            juanpabloescobarmarin@gmail.com
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("heroImage.png")}

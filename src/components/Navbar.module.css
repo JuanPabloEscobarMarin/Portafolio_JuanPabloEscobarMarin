@@ -78,4 +78,8 @@
     display: flex;
     z-index: 1;
   }
+  .title {
+    margin-top: 5px;
+    font-size: 29px;
+  }
 }

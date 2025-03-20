@@ -5,7 +5,7 @@ import styles from "./About.module.css";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>Sobre mi</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("sentada.png")}
@@ -16,30 +16,31 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("mouse.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Desarrollador Frontend</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Soy desarrollador frontend con experiencia en la creación de
+                sitios web responsivos y optimizados.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("servidor.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Desarrollador Backend</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Tengo experiencia en el desarrollo de sistemas back-end rápidos
+                y optimizados y APIs.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("diseño.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Ingeniero de Software</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Tengo experiencia en desarrollo web y soluciones tecnológicas.
+                Apasionado por la programación, la optimización de sistemas y la
+                creación de productos eficientes e innovadores.
               </p>
             </div>
           </li>

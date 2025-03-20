@@ -16,8 +16,8 @@
     "imageSrc": "node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "graphql.png"
+    "title": "Springboot",
+    "imageSrc": "springboot.png"
   },
   {
     "title": "MongoDB",
@@ -26,5 +26,17 @@
   {
     "title": "Figma",
     "imageSrc": "figma.png"
+  },
+  {
+    "title": "Postgres",
+    "imageSrc": "postgresql.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "python.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "java.png"
   }
 ]
