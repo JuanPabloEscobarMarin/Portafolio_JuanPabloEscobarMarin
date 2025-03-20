@@ -1,12 +1,15 @@
 import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "./Hero.module.css";
+import { Roles } from "./Roles";
 
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hola Soy Pablo</h1>
+        <h1 className={styles.title}>
+          Hola Soy Pablo,<Roles></Roles>
+        </h1>
         <p className={styles.description}>
           Este es mi portafolio y este es un texto de prueba igual nadie lo va a
           ver porfavor no me maten, Este es mi portafolio y este es un texto de
