@@ -42,5 +42,9 @@
   {
     "title": "Java",
     "imageSrc": "java.png"
+  },
+  {
+    "title": "Factorio",
+    "imageSrc": "factorio.png"
   }
 ]
