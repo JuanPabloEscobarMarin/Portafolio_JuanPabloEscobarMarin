@@ -20,12 +20,8 @@
     "imageSrc": "springboot.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "figma.png"
+    "title": "Rails",
+    "imageSrc": "ror.png"
   },
   {
     "title": "Postgres",
@@ -34,6 +30,14 @@
   {
     "title": "Python",
     "imageSrc": "python.png"
+  },
+  {
+    "title": "Typescript",
+    "imageSrc": "typescript.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "javascript.png"
   },
   {
     "title": "Java",

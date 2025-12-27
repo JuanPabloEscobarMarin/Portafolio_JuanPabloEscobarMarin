@@ -11,8 +11,8 @@ export const Hero = () => {
           Hola Soy Pablo,<Roles></Roles>
         </h1>
         <p className={styles.description}>
-          1 año de experiencia. Ingeniero de Sistemas y Desarrollador Web.
-          Especializado en crear soluciones web robustas.
+           Ingeniero de Sistemas y Desarrollador Web con 2 años de experiencia. apasionado por la programacion y 
+          los negocios digitales. Me especializo en crear soluciones web eficientes y escalables que impulsan el crecimiento empresarial.
         </p>
         <div className={styles.btncontainer}>
           <a
